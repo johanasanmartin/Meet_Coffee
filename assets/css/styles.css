@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    text-align: center;
+    color: #000f08;
+    font-family: "open sans";
+}
+
+/* Navbar*/
+
+nav{
+    background-color: #000f08;
+    color: white;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 25px;
+}
+
+nav li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+svg, .icono{
+    width: 40px;
+    fill: white;
+}
+
+/* Hero section*/
+
+header{
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-shadow: 0px 3px 6px #00000080;
+}
+
+header h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+header h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* Ubicación*/
+
+#Ubicación{
+    padding: 150px;
+}
+
+#Ubicación h2{
+    font-size: 45px;
+    margin: 40px 0px 20px 0px;
+}
+
+#Ubicación p{
+    font-size: 25px;
+}
+
+/* Próxima charla*/
+
+#Próxima-Charla{
+    background: #a4452c;
+    padding: 100px;
+    color:white
+}
+
+#Próxima-Charla img{
+    height: 350px;
+}
+
+#Próxima-Charla img,
+.texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Próxima-Charla .texto {
+    text-align: left;
+    width: 40%;
+    margin-left: 40px;
+}
+
+#Próxima-Charla .texto h3{
+font-size: 45px;
+}
+
+#Próxima-Charla .texto h4 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+#Próxima-Charla .texto h6{
+    font-size: 33px;
+}
+
+#Próxima-Charla .texto span{
+    font-size: 20px;
+}
+
+#Próxima-Charla .texto p{
+    font-size: 25px;
+}
+#Próxima-Charla .texto h6,span,p{
+font-weight: 400;
+}
+
+
+/* Eventos*/
+
+#Eventos{
+    padding: 100px;
+}
+
+#Eventos h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+
+#Eventos article{
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 35px;
+}
+
+#Eventos article img{
+    margin-bottom: 45px;
+}
+
+
+/* Footer*/
+
+footer{
+    background-color: #000f08;
+    color: white;
+    padding: 120px 100px 100px 100px;
+    font-size: 25px;
+}
+
+footer a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+footer p{
+    margin-top: 40px;
+}
+
+
+/* Evento 01*/
+
+#event{
+    padding: 200px;
+    width: 80%;
+    text-align: left;
+}
+
+#event h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+#event h3{
+    font-size: 40px;
+margin: 20px 0px;
+}
+
+
+#event p{
+    margin-top: 30px;
+}
+
+#event.charla-texto{
+    
+    font-size: 25px;
+    text-align: left;
+    width: 66%;
+}
